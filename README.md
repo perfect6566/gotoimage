@@ -1,6 +1,6 @@
 # gotoimage    
 
-A client for remote executing golang for Go users 
+A client for remote executing golang for Go users     
 If you don't have a go environment and you want to execute your go code, Feel free to use this tool to execute your code from remote go environment     
 
 ```go
