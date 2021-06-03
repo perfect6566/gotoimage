@@ -34,7 +34,7 @@ func TestRender(t *testing.T) {
 	if math.Abs(float64(imgGot.Bounds().Dx()-imgWant.Bounds().Dx())) > 5 ||
 		math.Abs(float64(imgGot.Bounds().Dy()-imgWant.Bounds().Dy())) > 5 {
 
-		err := os.WriteFile("testdata/got.png", got, os.ModePerm)
+		err := os.WriteFile("data/got.png", got, os.ModePerm)
 		if err != nil {
 			t.Errorf("failed to write image: %v", err)
 		}
